@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Menampilkan Gambar pada HTML</title>
+  </head>
+  <body>
+    <!-- Memanggil Gambar -->
+    <!-- pertama pastikan gambar yang akan ditampilkan
+    berada pada folder yang sama dengan file html -->
+    <h3>Single Picture</h3>
+    <img src="Telkom-Schools.png" width="200" height="200" alt="SMK Telkom Malang">
+    <!--
+    "alt" digunakan sebagai pengganti tampilan jika gambar yang ditampilkan
+    tidak dapat diakses
+
+    "width" digunakan untuk mengatur lebar Gambar
+    "height" digunakan untuk mengatur tinggi gambar
+    -->
+
+    <!-- Menampilkan gambar beserta text -->
+    <h3>Picture with text</h3>
+    <img src="Telkom-Schools.png" width="70" height="80" align="left"
+    hspace="20" vspace="20" alt="SMK Telkom Malang">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos odit unde sed perferendis voluptatem qui similique assumenda dolores quam aliquid maxime et, expedita odio cum nesciunt molestias accusantium! Modi, quam?
+    <!--
+    "align=left" digunakan untuk menenpatkan gambar di sebelah sisi kiri teks
+    "hspace" digunakan untuk mengatur space gambar dan text secara horizontal
+    "vspace" digunakan untuk mengatur space gambar dan text secara vertikal -->
+
+    <!--video dan audio-->
+    <h1>Multimedia</h1>
+    <h3>Audio</h3>
+    <audio controls>
+      <source src="music.mp3" type="audio/mp3">
+        Browser doesn't support audio
+        <!--
+        "controls" digunakan untuk menampilkan control audio (play/pause, volume)
+        pastikan file audio sudah terdapat pada folder yang sama dengan file html
+        kalimat "Browser...." ditampilkan jika browser tidak support audio -->
+    </audio>
+    <h3>Video</h3>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
+
+
+  </body>
+</html>
