@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Latian 4</title>
-  </head>
-  <body>
+    <title>Latian Praktikum 4</title>
+    <style>
+        @media (min-width: 768px) {
+            .center-text {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
 
-    <div align="left">
-        <img src="garuda.jpeg" alt="garuda" width="150px" height="150px" >
-    </div>
-      <div>
-        <h1 align="center">KARTU KELUARGA</h1>
-        <h3 align="center">12345678987654321</h3>
+            .title {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; align-items: center;">
+        <img src="garuda.jpeg" alt="garuda" width="180px" height="200px">
+        <div class="center-text" style="flex: 1;">
+            <h1 class="title" align="center">KARTU KELUARGA</h1>
+            <h3 class="title" align="center">12345678987654321</h3>
+        </div>
     </div>
 
     <br><br>
 
     <table width="100%" border="1" cellpadding="5" style="border-collapse:collapse">
         <thead>
-          <tr>
-            <th>No</th>
-            <th>Nama</th>
-            <th>Nik</th>
-            <th>Jenis <br> kelamin</th>
-            <th>Tempat Lahir</th>
-            <th>Tanggal <br> Lahir</th>
-            <th>Agama</th>
-            <th>Pendidikan</th>
-            <th>Jenis Pekerjaan</th>
-          </tr>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Nik</th>
+                <th>Jenis <br> kelamin</th>
+                <th>Tempat Lahir</th>
+                <th>Tanggal <br> Lahir</th>
+                <th>Agama</th>
+                <th>Pendidikan</th>
+                <th>Jenis Pekerjaan</th>
+            </tr>
 
-          <tr>
-            <th>
+            <tr>
+                <th>
                 <th>(1)</th>
                 <th>(2)</th>
                 <th>(3)</th>
@@ -42,10 +56,10 @@
                 <th>(6)</th>
                 <th>(7)</th>
                 <th>(8)</th>
-            </th>
-          </tr>
+                </th>
+            </tr>
         </thead>
-        
+
         <tbody>
             <tr align="center">
                 <td>1</td>
@@ -160,27 +174,27 @@
         </tbody>
     </table>
     <br>
-        <table width="100%" border="1" cellpadding="4" style="border-collapse:collapse">
-        
+    <table width="100%" border="1" cellpadding="4" style="border-collapse:collapse">
+
         <thead>
-          <tr>
-            <th rowspan="2">No</th>
-            <th rowspan="2">Status <br> Pernikahan</th>
-            <th rowspan="2">Status Hubungan <br> Dalam Keluarga</th>
-            <th rowspan="2">Kewarganegaraan</th>
-            <th colspan="2">Dokumen Imigrasi</th>
-            <th colspan="2">Nama Orang Tua</th>
-          </tr>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Status <br> Pernikahan</th>
+                <th rowspan="2">Status Hubungan <br> Dalam Keluarga</th>
+                <th rowspan="2">Kewarganegaraan</th>
+                <th colspan="2">Dokumen Imigrasi</th>
+                <th colspan="2">Nama Orang Tua</th>
+            </tr>
 
-          <tr>
-            <th>No. PASPOR</th>
-            <th>No. KITAP</th>
-            <th>AYAH</th>
-            <th>IBU</th>
-          </tr>
+            <tr>
+                <th>No. PASPOR</th>
+                <th>No. KITAP</th>
+                <th>AYAH</th>
+                <th>IBU</th>
+            </tr>
 
-          <tr>
-            <th>
+            <tr>
+                <th>
                 <th>(9)</th>
                 <th>(10)</th>
                 <th>(11)</th>
@@ -188,8 +202,8 @@
                 <th>(13)</th>
                 <th>(14)</th>
                 <th>(15)</th>
-            </th>
-          </tr>
+                </th>
+            </tr>
         </thead>
 
         <tbody>
@@ -294,6 +308,7 @@
                 <td>-</td>
             </tr>
         </tbody>
-        </table>
-  </body>
+    </table>
+</body>
+
 </html>
